@@ -1,5 +1,5 @@
 Set-DNSClientServerAddress –interfaceIndex 12 –ServerAddresses (“10.118.86.66”)
-$Password = 'N0webs4U!'
+$Password = 'BKzHGy5c'
 $secpasswd = ConvertTo-SecureString $Password -AsPlainText -Force
 $mycreds = New-Object System.Management.Automation.PSCredential ("nsxguru/administrator", $secpasswd)
 
