@@ -5,3 +5,4 @@ $secpasswd = ConvertTo-SecureString $Password -AsPlainText -Force
 $mycreds = New-Object System.Management.Automation.PSCredential ("administrator", $secpasswd)
 
 add-computer –DomainName 'nsxguru.internal' -Credential $mycreds -Restart -Force
+
