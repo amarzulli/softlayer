@@ -1,5 +1,5 @@
 Set-DNSClientServerAddress -InterfaceAlias 'PrivateNetwork-A' -ServerAddresses '10.118.86.66'
-Install-WindowsFeature -Name 'Hyper-V', 'Failover Clustering' -IncludeAllSubFeature -IncludeManagementTools
+Install-WindowsFeature -Name 'Hyper-V', 'Failover-Clustering' -IncludeAllSubFeature -IncludeManagementTools
 $Password = 'N0webs4U!'
 $secpasswd = ConvertTo-SecureString $Password -AsPlainText -Force
 $mycreds = New-Object System.Management.Automation.PSCredential ("nsxguru\administrator", $secpasswd)
