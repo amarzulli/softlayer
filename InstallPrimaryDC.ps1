@@ -3,7 +3,7 @@
  
 Install-WindowsFeature AD-Domain-Services, DNS -IncludeAllSubFeature -IncludeManagementTools
 
-$PlainPassword = 'Nowebs4U!'
+$PlainPassword = ''
 $SecurePassword = $PlainPassword | ConvertTo-SecureString -AsPlainText -Force
 
 Install-ADDSForest `
