@@ -1,3 +1,3 @@
-#!/bin/sh
+#!/bin/bash
 
-echo curl https://api.service.softlayer.com/rest/v3/SoftLayer_Resource_Metadata/getUserMetadata >> ip.address
+echo curl https://api.service.softlayer.com/rest/v3/SoftLayer_Resource_Metadata/getUserMetadata > ~/ip.address
